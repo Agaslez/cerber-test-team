@@ -6,7 +6,7 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 import { join } from 'path';
 
-const SCHEMA_FILE = 'BACKEND_SCHEMA.ts';
+const SCHEMA_FILE = 'BACKEND_SCHEMA.mjs';
 const APPROVALS_TAG = 'ARCHITECT_APPROVED';
 
 async function main() {

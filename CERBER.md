@@ -9,7 +9,7 @@ mode: team  # solo | dev | team
 
 guardian:
   enabled: true
-  schemaFile: BACKEND_SCHEMA.ts
+  schemaFile: BACKEND_SCHEMA.mjs
   hook: husky
   approvalsTag: ARCHITECT_APPROVED
 
